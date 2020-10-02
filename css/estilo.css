@@ -1,0 +1,68 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-size:1em;
+	font-family:"trebuchet MS", helvetica, sans-serif;
+	background:lightsteelblue;
+}
+#cabecalho{
+
+    padding:10px;
+    text-align:center;
+}
+#principal{
+    width: 1300px;
+    margin: 10px 70px;
+    float: left;
+    background:lightsteelblue;
+}
+#postagem{
+    background-color: white;
+    width:900px;
+    padding:15px;
+    float: left;
+}
+#lateral{
+    width: 300px;
+    margin-top: 15px;
+    background-color: white;
+    padding:10px;
+    float:right;
+}
+#rodape{
+    width:100%;
+    background-color: cornflowerblue;
+    text-align: center;
+    line-height: 50px;
+    height:50px;
+    clear: both;
+
+}
+.cabecalho-lateral{
+    width:100%;
+    background-color: lightskyblue;
+    text-align: center;
+}
+
+.link-menu{
+    background-color: lightskyblue;
+    float: left;
+    color:white;
+    text-decoration:none;
+    margin:0px 65px;
+    padding: 10px;
+    font-size: 20px;
+    display: block;
+    width:39%;
+}
+.link-lateral{
+    text-decoration: none;
+    color: lightblue;
+}
+a:hover{
+    background-color:lightblue;
+    color: white;
+    font-size: 20px;
+}
